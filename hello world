@@ -1,11 +1,3 @@
 
-import random
-import sys
-for i in range(5):
-    print(random.randint(1, 10))
-while True:
-    text = input("enter 'exist' to exist the program: \n")
-    if text == "exist":
-        sys.exit()
-    print("your entered " + text)
+print("Hello world!!")
 
